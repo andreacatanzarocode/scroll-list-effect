@@ -27,7 +27,7 @@ a {
 
 img.image-banner {
     position: fixed;
-    width: 25vw;
+    width: 20vw;
     aspect-ratio: 2/1;
     top: 41px;
     left: 16px;
@@ -38,7 +38,6 @@ img.image-banner {
     }
 
     @media (max-width: 767px) {
-        aspect-ratio: 1/2;
         width: 40vw;
     }
 }
@@ -98,8 +97,8 @@ img.image-banner[src=""] {
                 transform: translate(0%, -50%);
 
                 @media (max-width: 767px) {
-                    height: 1.5rem;
-                    max-height: 1.rem;
+                    height: 1.2rem;
+                    max-height: 1.2rem;
                 }
             }
         }
